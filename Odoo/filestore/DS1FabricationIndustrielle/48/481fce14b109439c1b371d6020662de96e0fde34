@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?><rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+                <rsm:ExchangedDocumentContext>
+                    <ram:GuidelineSpecifiedDocumentContextParameter>
+                        <ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+                    </ram:GuidelineSpecifiedDocumentContextParameter>
+                </rsm:ExchangedDocumentContext>
+                <rsm:ExchangedDocument>
+                    <ram:ID>INV/2021/00002</ram:ID>
+                    <ram:TypeCode>380</ram:TypeCode>
+                    <ram:IssueDateTime>
+                        <udt:DateTimeString format="102">20211219</udt:DateTimeString>
+                    </ram:IssueDateTime>
+                </rsm:ExchangedDocument>
+                <rsm:SupplyChainTradeTransaction>
+                <ram:IncludedSupplyChainTradeLineItem>
+                    <ram:AssociatedDocumentLineDocument>
+                        <ram:LineID>1</ram:LineID>
+                    </ram:AssociatedDocumentLineDocument>
+                    <ram:SpecifiedTradeProduct>
+                        <ram:Name>Smartphone (noir)</ram:Name>
+                    </ram:SpecifiedTradeProduct>
+                    <ram:SpecifiedLineTradeAgreement>
+                        <ram:GrossPriceProductTradePrice>
+                            <ram:ChargeAmount currencyID="USD">4550.00</ram:ChargeAmount>
+                        </ram:GrossPriceProductTradePrice>
+                    </ram:SpecifiedLineTradeAgreement>
+                    <ram:SpecifiedLineTradeDelivery>
+                        <ram:BilledQuantity>7.0</ram:BilledQuantity>
+                    </ram:SpecifiedLineTradeDelivery>
+                    <ram:SpecifiedLineTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                            <ram:LineTotalAmount currencyID="USD">4550.00</ram:LineTotalAmount>
+                        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    </ram:SpecifiedLineTradeSettlement>
+                </ram:IncludedSupplyChainTradeLineItem>
+                <ram:IncludedSupplyChainTradeLineItem>
+                    <ram:AssociatedDocumentLineDocument>
+                        <ram:LineID>2</ram:LineID>
+                    </ram:AssociatedDocumentLineDocument>
+                    <ram:SpecifiedTradeProduct>
+                        <ram:Name>Smartphone (blanc)</ram:Name>
+                    </ram:SpecifiedTradeProduct>
+                    <ram:SpecifiedLineTradeAgreement>
+                        <ram:GrossPriceProductTradePrice>
+                            <ram:ChargeAmount currencyID="USD">6500.00</ram:ChargeAmount>
+                        </ram:GrossPriceProductTradePrice>
+                    </ram:SpecifiedLineTradeAgreement>
+                    <ram:SpecifiedLineTradeDelivery>
+                        <ram:BilledQuantity>10.0</ram:BilledQuantity>
+                    </ram:SpecifiedLineTradeDelivery>
+                    <ram:SpecifiedLineTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                            <ram:LineTotalAmount currencyID="USD">6500.00</ram:LineTotalAmount>
+                        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    </ram:SpecifiedLineTradeSettlement>
+                </ram:IncludedSupplyChainTradeLineItem>
+                    <ram:ApplicableHeaderTradeAgreement>
+                        <ram:SellerTradeParty>
+                <ram:Name>My Company</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>My Company</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>51096335</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID schemeID="SMTP">safabelhadjromdhane@gmail.com</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:CountryID>TN</ram:CountryID>
+                </ram:PostalTradeAddress>
+                        </ram:SellerTradeParty>
+                        <ram:BuyerTradeParty>
+                <ram:Name>Edward O Lee</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Edward O Lee</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>51331698</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID schemeID="SMTP">edwardo@gamil.com</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:LineOne>New York</ram:LineOne>
+                </ram:PostalTradeAddress>
+                        </ram:BuyerTradeParty>
+                        <ram:BuyerOrderReferencedDocument>
+                            <ram:IssuerAssignedID>INV/2021/00002: INV/2021/00002</ram:IssuerAssignedID>
+                        </ram:BuyerOrderReferencedDocument>
+                    </ram:ApplicableHeaderTradeAgreement>
+                    <ram:ApplicableHeaderTradeDelivery>
+                        <ram:ShipToTradeParty>
+                <ram:Name>Edward O Lee</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Edward O Lee</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>51331698</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID schemeID="SMTP">edwardo@gamil.com</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:LineOne>New York</ram:LineOne>
+                </ram:PostalTradeAddress>
+                        </ram:ShipToTradeParty>
+                    </ram:ApplicableHeaderTradeDelivery>
+                    <ram:ApplicableHeaderTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:CalculatedAmount currencyID="USD">1657.50</ram:CalculatedAmount>
+                                <ram:BasisAmount currencyID="USD">11050.00</ram:BasisAmount>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradePaymentTerms>
+                            <ram:DueDateDateTime>
+                                <udt:DateTimeString>20211219</udt:DateTimeString>
+                            </ram:DueDateDateTime>
+                        </ram:SpecifiedTradePaymentTerms>
+                        <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                            <ram:LineTotalAmount currencyID="USD">11050.00</ram:LineTotalAmount>
+                            <ram:TaxBasisTotalAmount currencyID="USD">11050.00</ram:TaxBasisTotalAmount>
+                            <ram:TaxTotalAmount currencyID="USD">1657.50</ram:TaxTotalAmount>
+                            <ram:GrandTotalAmount currencyID="USD">12707.50</ram:GrandTotalAmount>
+                            <ram:TotalPrepaidAmount currencyID="USD">0.00</ram:TotalPrepaidAmount>
+                            <ram:DuePayableAmount currencyID="USD">12707.50</ram:DuePayableAmount>
+                        </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                    </ram:ApplicableHeaderTradeSettlement>
+                </rsm:SupplyChainTradeTransaction>
+            </rsm:CrossIndustryInvoice>
